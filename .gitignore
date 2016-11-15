@@ -31,3 +31,38 @@
 # Debug files
 *.dSYM/
 *.su
+
+# Build products
+Debug
+Release
+Doc
+
+#CubeMX
+.mxproject
+
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# Eclipse Core
+.project
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific (C/C++ Development Tooling)
+.cproject
+
+# Code Recommenders
+.recommenders/

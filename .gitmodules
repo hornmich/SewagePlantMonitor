@@ -1,0 +1,3 @@
+[submodule "Sewage plant monitor/Drivers/JSN-SR04T"]
+	path = Sewage plant monitor/Drivers/JSN-SR04T
+	url = https://github.com/hornmich/JSN-SR04T
