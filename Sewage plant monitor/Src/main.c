@@ -34,6 +34,7 @@
 #include "main.h"
 #include "stm32f1xx_hal.h"
 #include "jsn-sr04t.h"
+#include "stdio.h"
 
 /* USER CODE BEGIN Includes */
 
@@ -65,6 +66,14 @@ static void MX_USART2_UART_Init(void);
 /* USER CODE END PFP */
 
 /* USER CODE BEGIN 0 */
+unsigned int JSN_GPIO_Get_value_wrapper(void* GPIO_Port, void* GPIO_Pin) {
+	return HAL_GPIO_ReadPin((GPIO_TypeDef*)GPIO_Port, (uint16_t*)GPIO_Pin);
+}
+
+void JSN_GPIO_Set_value_wrapper(void* GPIO_Port, void* GPIO_Pin, unsigned int value) {
+	HAL_GPIO_WritePin((GPIO_TypeDef*)GPIO_Port, (uint16_t*)GPIO_Pin, value);
+}
+
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
 	JSN_10us_timer_callback(&usonic_sensor);
 }
@@ -75,7 +84,6 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
 		JSN_GPIO_EXTI_callback(&usonic_sensor);
 	}
 }
-
 
 /* USER CODE END 0 */
 
@@ -102,8 +110,7 @@ int main(void)
 
   /* USER CODE BEGIN 2 */
   HAL_GPIO_WritePin(US_trigger_GPIO_Port, US_trigger_Pin, GPIO_PIN_RESET);
-  HAL_TIM_Base_Start_IT(&htim2);
-  JSN_Init(&usonic_sensor, US_trigger_GPIO_Port, US_trigger_Pin, US_echo_GPIO_Port, US_echo_Pin);
+  JSN_Init(&usonic_sensor, (void*)US_trigger_GPIO_Port, (void*)US_trigger_Pin, (void*)US_echo_GPIO_Port, (void*)US_echo_Pin);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -112,6 +119,8 @@ int main(void)
   int text_len;
   jsn_sr04t_ret_val_t ret_val;
   jsn_sr04t_state_t state;
+
+  printf("Hello.\r\n");
 
   while (1)
   {
