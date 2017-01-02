@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP G3MB-202P
+D Zero Cross Opto-Triac, Vdrm 230VAC, Ift 50mA, IT 2A
+K Opto-Triac Opto Triac Zero Cross Solid State Relays
+F http://www.mouser.com/ds/2/307/g3mb_0609-298620.pdf
+$ENDCMP
+#
+#End Doc Library
