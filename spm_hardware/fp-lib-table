@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name D-HDO4)(type KiCad)(uri "$(KIPRJMOD)/D-HDO4.pretty")(options "")(descr ""))
+  (lib (name BV2010145)(type KiCad)(uri "$(KIPRJMOD)/BV2010145.pretty")(options "")(descr ""))
+)
