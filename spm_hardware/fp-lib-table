@@ -1,4 +1,7 @@
 (fp_lib_table
   (lib (name D-HDO4)(type KiCad)(uri "$(KIPRJMOD)/D-HDO4.pretty")(options "")(descr ""))
   (lib (name BV2010145)(type KiCad)(uri "$(KIPRJMOD)/BV2010145.pretty")(options "")(descr ""))
+  (lib (name ESP8266)(type KiCad)(uri "$(KIPRJMOD)/lib/kicad-ESP8266/ESP8266.pretty")(options "")(descr ""))
+  (lib (name G3MB-202P)(type KiCad)(uri "$(KIPRJMOD)/G3MB-202P.pretty")(options "")(descr ""))
+  (lib (name STM32L432)(type KiCad)(uri "$(KIPRJMOD)/STM32L432.pretty")(options "")(descr ""))
 )
