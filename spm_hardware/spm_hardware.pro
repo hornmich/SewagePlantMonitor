@@ -1,4 +1,4 @@
-update=Po 2. leden 2017, 19:01:27 CET
+update=Út 3. leden 2017, 21:48:11 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,13 @@ LibName29=valves
 LibName30=lib/stm32l432_nucleo
 LibName31=lib/kicad-ESP8266/ESP8266
 LibName32=lib/g3mb-202p
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
