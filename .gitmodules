@@ -1,3 +1,7 @@
 [submodule "Sewage plant monitor/Drivers/JSN-SR04T"]
 	path = Sewage plant monitor/Drivers/JSN-SR04T
 	url = https://github.com/hornmich/JSN-SR04T
+
+[submodule "spm_hardware/lib/kicad-ESP8266"]
+	path = spm_hardware/lib/kicad-ESP8266
+	url = https://github.com/jdunmire/kicad-ESP8266.git
