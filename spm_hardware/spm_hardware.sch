@@ -646,7 +646,7 @@ U 1 1 586AC64D
 P 8500 900
 F 0 "F1" V 8580 900 50  0000 C CNN
 F 1 "Fuse" V 8425 900 50  0000 C CNN
-F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_inline_Type-I" V 8430 900 50  0001 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder_Fuse_TR5_Littlefuse-No560_No460" V 8430 900 50  0001 C CNN
 F 3 "" H 8500 900 50  0000 C CNN
 	1    8500 900 
 	0    1    1    0   

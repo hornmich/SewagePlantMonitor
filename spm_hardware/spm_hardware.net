@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/michal/Dokumenty/SewagePlantMonitor/spm_hardware/spm_hardware.sch)
-    (date Pá 27. leden 2017, 20:04:09 CET)
+    (date Pá 27. leden 2017, 20:16:07 CET)
     (tool "Eeschema 4.0.5-e0-6337~49~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -125,7 +125,7 @@
       (tstamp 586AC598))
     (comp (ref F1)
       (value Fuse)
-      (footprint Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_inline_Type-I)
+      (footprint Fuse_Holders_and_Fuses:Fuseholder_Fuse_TR5_Littlefuse-No560_No460)
       (libsource (lib device) (part Fuse))
       (sheetpath (names /) (tstamps /))
       (tstamp 586AC64D))
