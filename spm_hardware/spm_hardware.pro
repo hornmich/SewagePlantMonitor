@@ -1,4 +1,4 @@
-update=Út 3. leden 2017, 21:48:11 CET
+update=Pá 27. leden 2017, 19:16:43 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,9 +25,19 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
-LibDir=
+LibDir=lib;STM32L432.pretty
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -61,13 +71,3 @@ LibName29=valves
 LibName30=lib/stm32l432_nucleo
 LibName31=lib/kicad-ESP8266/ESP8266
 LibName32=lib/g3mb-202p
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
