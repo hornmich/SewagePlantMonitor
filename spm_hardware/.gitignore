@@ -8,4 +8,5 @@ ftp-lib-table
 
 # for external tools
 *.dsn
+*.ses
 
