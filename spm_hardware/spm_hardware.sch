@@ -594,7 +594,7 @@ F 1 "G3MB-202P" H 1800 6100 50  0000 L CNN
 F 2 "G3MB-202P:G3MB-202P" H 1600 5700 50  0001 L CIN
 F 3 "" H 1765 5900 50  0000 L CNN
 	1    1800 5900
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L BS170 Q1
@@ -1469,6 +1469,30 @@ F 3 "" H 4250 7350 50  0000 C CNN
 	1    4250 7350
 	1    0    0    -1  
 $EndComp
+$Comp
+L DIL8 P4
+U 1 1 58715AB4
+P 6600 5250
+F 0 "P4" H 6600 5500 50  0000 C CNN
+F 1 "DIL8" V 6600 5250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm" H 6600 5250 50  0001 C CNN
+F 3 "" H 6600 5250 50  0000 C CNN
+	1    6600 5250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4950 5450
+NoConn ~ 4250 5450
+$Comp
+L GND #PWR061
+U 1 1 58718799
+P 6250 5600
+F 0 "#PWR061" H 6250 5350 50  0001 C CNN
+F 1 "GND" H 6250 5450 50  0000 C CNN
+F 2 "" H 6250 5600 50  0000 C CNN
+F 3 "" H 6250 5600 50  0000 C CNN
+	1    6250 5600
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	9650 1850 10050 1850
 Wire Wire Line
@@ -1600,8 +1624,6 @@ Wire Wire Line
 Wire Wire Line
 	10950 700  10950 1000
 Wire Wire Line
-	800  5750 950  5750
-Wire Wire Line
 	950  5750 950  6150
 Wire Wire Line
 	950  6150 800  6150
@@ -1628,8 +1650,6 @@ Wire Wire Line
 	1500 5800 1400 5800
 Wire Wire Line
 	1400 5800 1400 5550
-Wire Wire Line
-	1400 5550 800  5550
 Wire Wire Line
 	800  6350 1400 6350
 Wire Wire Line
@@ -1881,30 +1901,6 @@ Wire Wire Line
 	4250 7100 4100 7100
 Wire Wire Line
 	4100 7100 4100 6800
-$Comp
-L DIL8 P4
-U 1 1 58715AB4
-P 6600 5250
-F 0 "P4" H 6600 5500 50  0000 C CNN
-F 1 "DIL8" V 6600 5250 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm" H 6600 5250 50  0001 C CNN
-F 3 "" H 6600 5250 50  0000 C CNN
-	1    6600 5250
-	1    0    0    -1  
-$EndComp
-NoConn ~ 4950 5450
-NoConn ~ 4250 5450
-$Comp
-L GND #PWR061
-U 1 1 58718799
-P 6250 5600
-F 0 "#PWR061" H 6250 5350 50  0001 C CNN
-F 1 "GND" H 6250 5450 50  0000 C CNN
-F 2 "" H 6250 5600 50  0000 C CNN
-F 3 "" H 6250 5600 50  0000 C CNN
-	1    6250 5600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6250 5100 6250 4900
 Wire Wire Line
@@ -1929,4 +1925,8 @@ Wire Wire Line
 	7150 5200 7150 4950
 Wire Wire Line
 	6950 5100 6950 4900
+Wire Wire Line
+	800  5750 950  5750
+Wire Wire Line
+	1400 5550 800  5550
 $EndSCHEMATC
