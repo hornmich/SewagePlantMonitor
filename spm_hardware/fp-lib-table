@@ -4,4 +4,5 @@
   (lib (name ESP8266)(type KiCad)(uri "$(KIPRJMOD)/lib/kicad-ESP8266/ESP8266.pretty")(options "")(descr ""))
   (lib (name G3MB-202P)(type KiCad)(uri "$(KIPRJMOD)/G3MB-202P.pretty")(options "")(descr ""))
   (lib (name STM32L432)(type KiCad)(uri "$(KIPRJMOD)/STM32L432.pretty")(options "")(descr ""))
+  (lib (name vias)(type KiCad)(uri "$(KIPRJMOD)/lib/vias.pretty")(options "")(descr ""))
 )
